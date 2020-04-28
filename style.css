@@ -1,0 +1,316 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Century Gothic;
+}
+
+.container{
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+header ul,.tag ul{
+  float: right;
+  margin-right: 30px;
+}
+
+header li,.tag li{
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+header li a,.tag li a{
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 24px;
+  transition: all .5s;
+  text-decoration: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+header li a:hover,.tag li a:hover{
+  background:#000;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.current{
+  background: black;
+  opacity: 0.8;
+  color: white;
+}
+
+/*Global footer-----------------------------------------------*/
+
+footer{
+  background: #333;
+  padding: 18px;
+  text-align: center;
+  margin-top: 50px;
+  border-top: 5px solid #888;
+  border-bottom: 5px solid #888;
+}
+
+footer a{
+  color: #fff;
+  padding: 0 30px;
+  font-size: 30px;
+}
+
+.link-sab{
+  display: block;
+  margin: 0 auto;
+}
+
+.link-sab .aaa:hover{
+  color: #1877f2;
+  font-weight: bold;
+  
+}
+
+.link-sab .aab:hover{
+  color: #D93177;
+  font-weight: bold;
+}
+
+.link-sab .aac:hover{
+  color: #1DA1F2;
+  font-weight: bold;
+}
+
+.link-sab .aad:hover{
+  color: #cd201f;
+  font-weight: bold;
+}
+
+.link-sab .aae:hover{
+  color: #21759b;
+  font-weight: bold;
+}
+
+
+
+
+/*index.html-----------------------------------------------*/
+.logo img,.tag img{
+  width: 60px;
+}
+
+header{
+  position: relative;
+  background:url(./img/GPTempDownload\ 2.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: slide 16s infinite;
+  filter: brightness(70%);
+}
+
+@keyframes slide{
+  17%{
+    background:url(./img/GPTempDownload\ 18.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+  34%{
+    background:url(./img/89D9585A-374F-41CE-8115-DD5BF1854F31.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+  51%{
+    background:url(./img/GPTempDownload\ 21.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+  68%{
+    background:url(./img/GPTempDownload\ 4.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+  85%{
+    background:url(./img/GPTempDownload\ 19.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+  100%{
+    background:url(./img/GPTempDownload\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+  }
+}
+
+header h1{
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 200px;
+  color: #000;
+  transition: all 2s;
+  display: block;
+  text-shadow: 0 0 1em #000;
+}
+
+header h1:hover{
+  color: #fff;
+  text-shadow: 0 0 1em #000;
+}
+
+.link{
+  text-align: center;
+}
+
+.link a{
+  font-size: 3rem;
+  margin: 0 20px 0 20px;
+  background: #fff;
+  color: #333;
+  border-radius: 50%;
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all .3s;
+}
+
+.link a:hover{
+  background: #333;
+  opacity: 1;
+  width: 95px;
+  height: 95px;
+  border: 3px solid #eee;
+}
+
+.link .aaa:hover{
+  color: #1877f2;
+  font-weight: bold;
+  
+}
+
+.link .aab:hover{
+  color: #D93177;
+  font-weight: bold;
+ 
+}
+
+.link .aac:hover{
+  color: #1DA1F2;
+  font-weight: bold;
+}
+
+.link .aad:hover{
+  color: #cd201f;
+  font-weight: bold;
+}
+
+.link .aae:hover{
+  color: #21759b;
+  font-weight: bold;
+}
+
+
+/*gallery-----------------------------------------------*/
+#global-gallery{
+  background: #444;
+}
+
+
+
+/*visit-----------------------------------------------*/
+#global-visit{
+  background: #555;
+}
+
+.side-right-b img{
+  width: 30rem;
+  border-radius: 10px;
+  border: 3px solid rgb(9, 41, 185);
+}
+
+#showcase{
+  display: flex;
+  margin-top: 30px;
+}
+
+.side-right-b{
+  float:left;
+  width: 40%;
+}
+
+.side-left-b{
+  float:right;
+  width: 50%;
+}
+
+
+
+
+
+/*about-----------------------------------------------*/
+#global-about{
+  background: #666;
+  height: 65px;
+}
+
+#showcase{
+  display: flex;
+  margin-top: 30px;
+}
+
+.side-right{
+  float:left;
+  width: 65%;
+}
+
+.side-left{
+  float:right;
+  width: 30%;
+}
+
+/*contact-----------------------------------------------*/
+#global-contact{
+  background: #777;
+}
+
+#showcase h2{
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  
+}
+
+.gird-pra{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.side-right-a{
+  grid-column: span 6;
+}
+
+.side-left-a{
+  grid-column: span 6;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.side-left-a img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #555;
+}
+
+.side-right-a img{
+  width: 30rem;
+  border-radius: 10px;
+}
